@@ -1,0 +1,38 @@
+.card {
+  width: 200px;
+  border: 1px solid gray;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  background-color: white;
+}
+
+.card:hover {
+  transform: scale(1.06);
+}
+
+.card > .MuiAvatar-root {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.card > p {
+  margin-top: 10px;
+}
+
+.card > h3 {
+  margin-top: 10px;
+}
+
+.card > .MuiAvatar-circle {
+  border-style: solid;
+}
+
+.desc__color {
+  color: #ff5200;
+  font-size: large;
+}
